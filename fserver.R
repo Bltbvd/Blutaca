@@ -4,7 +4,7 @@ library(magrittr)
 library(mgcv)
 library(httr)
 library(jpeg)
-library(dployr)
+library(dplyr)
  
  
 tbf <- function(t, x, v){
