@@ -19,7 +19,7 @@ body <- dashboardBody(
   tabItems(
     tabItem("Mis_Recomendaciones",
             selectInput("RecomPel", "Escoger Pelicula",
-                        choices = x[[1]], multiple=FALSE, selectize=TRUE,width = '50%'),
+                        choices = search_cinemovie("UVK - PLATINO BASADRE", "LA MUJER MARAVILLA")[[1]], multiple=FALSE, selectize=TRUE,width = '50%'),
             tableOutput("Recomendacion")
     ),
     tabItem("Puntuar",
