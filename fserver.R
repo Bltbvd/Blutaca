@@ -220,6 +220,7 @@ search_cinemovie <- function(cine=NULL, pela){
   }
   return (list(pelas,result))
 }
+ 
 
 
 
